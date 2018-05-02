@@ -2,6 +2,8 @@ package com.cms.velsol.cmsemployee.apis;
 
 
 
+import com.cms.velsol.cmsemployee.response.GetEmployeeResponse;
+
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
@@ -13,6 +15,11 @@ import retrofit2.http.POST;
 
 public interface ApiService
 {
+
+
+    @FormUrlEncoded
+    @POST("getEmployee.php")
+    Call<GetEmployeeResponse> getEmployeeDetails(@Field("emp_id") String userid, @Field("operator_id") String operator_id);
 
     @FormUrlEncoded
     @POST("addEmployee.php")

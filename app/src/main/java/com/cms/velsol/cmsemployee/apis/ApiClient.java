@@ -12,12 +12,12 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiClient
 {
-    public static final String BASE_URL = "http://techiecrisis.tech/CMS/";
+    public static final String BASE_URL = "http://velsol.xyz/cms/";
     private static Retrofit retrofit = null;
 
     public static Retrofit getClient()
     {
-        if (retrofit==null)
+        if(retrofit==null)
         {
             Gson gson = new GsonBuilder()
                     .setLenient()
