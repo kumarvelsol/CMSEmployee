@@ -6,16 +6,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context="com.cms.velsol.cmsemployee.employee.SignupEmployee">
-
-
-
     <LinearLayout
         android:id="@+id/userrecoginse_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="visible"
-        android:orientation="vertical">
-
+        android:orientation="vertical"
+        android:visibility="visible">
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -23,10 +19,8 @@
                 android:id="@+id/signup_employee_userid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="User ID"/>
+                android:hint="User ID" />
         </android.support.design.widget.TextInputLayout>
-
-
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -34,19 +28,15 @@
                 android:id="@+id/signup_employee_operatorid"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="Operator ID"/>
+                android:hint="Operator ID" />
         </android.support.design.widget.TextInputLayout>
-
         <Button
             android:id="@+id/btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="submit"
-            android:layout_gravity="center"/>
-
-
+            android:layout_gravity="center"
+            android:text="submit" />
     </LinearLayout>
-
     <LinearLayout
         android:id="@+id/emplloyee_layout"
         android:layout_width="match_parent"
@@ -217,7 +207,6 @@
                 android:layout_width="2dp"
                 android:layout_height="match_parent"
                 android:background="@color/white"/>
-
             <Button
                 android:id="@+id/add_employee_button"
                 android:layout_weight="0.5"
@@ -231,9 +220,4 @@
                 android:text="Add"/>
         </LinearLayout>
     </LinearLayout>
-
-
-
-
-
 </LinearLayout>
