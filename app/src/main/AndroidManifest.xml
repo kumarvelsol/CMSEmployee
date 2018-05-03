@@ -9,16 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-
-        </activity>
-        <activity android:name=".employee.SignupEmployee">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".employee.SignupEmployee" />
+        <activity
+            android:name=".activites.HomeScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity android:name=".activites.TodayCollectionActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activites.PaymentDetailsActivity" />
+        <activity android:name=".activites.CollectionReportsActivity" />
+        <activity android:name=".activites.ServicesActivity" />
+        <activity android:name=".activites.ServiceReportsActivity" />
+        <activity android:name=".activites.ServiceRequestsActivity"></activity>
     </application>
 
 </manifest>
