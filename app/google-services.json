@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "128391036457",
+    "firebase_url": "https://cableproject-6f386.firebaseio.com",
+    "project_id": "cableproject-6f386",
+    "storage_bucket": "cableproject-6f386.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:128391036457:android:f93d13e802823aad",
+        "android_client_info": {
+          "package_name": "com.cms.velsol.cmsemployee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "128391036457-4g3dn66ttms67a0vtau9t949fd8pjtqn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cms.velsol.cmsemployee",
+            "certificate_hash": "cea3d15f9f6b5d803349349494711c0dadf0cf53"
+          }
+        },
+        {
+          "client_id": "128391036457-ch29m4khc00u9osffqrp7dhe02ro8shk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCifvSL6nD3idffvTngKqWnQRoQa-QBxI4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "128391036457-ch29m4khc00u9osffqrp7dhe02ro8shk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
