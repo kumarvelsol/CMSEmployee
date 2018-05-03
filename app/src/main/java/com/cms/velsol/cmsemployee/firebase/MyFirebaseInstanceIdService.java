@@ -11,7 +11,8 @@ public class MyFirebaseInstanceIdService extends FirebaseInstanceIdService
 {
     PreferenceManager preferenceManager;
     @Override
-    public void onTokenRefresh() {
+    public void onTokenRefresh()
+    {
         preferenceManager=new PreferenceManager(this);
         // Get updated InstanceID token.
         String refreshedToken = FirebaseInstanceId.getInstance().getToken();
