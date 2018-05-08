@@ -36,11 +36,10 @@ public class SignupEmployee extends AppCompatActivity
 
     private void initview()
     {
-             memployeeoperatorid=(EditText)findViewById(R.id.signup_employee_operatorid);
-                 memployeeuserid=(EditText)findViewById(R.id.signup_employee_userid);
+        memployeeoperatorid=(EditText)findViewById(R.id.signup_employee_operatorid);
+        memployeeuserid=(EditText)findViewById(R.id.signup_employee_userid);
 
-
-         memployeeoperatorid=(EditText)findViewById(R.id.operator_employee_input);
+        // memployeeoperatorid=(EditText)findViewById(R.id.operator_employee_input);
 //        memployeeNameInput=(EditText)findViewById(R.id.name_employee_input);
 //        empiamge=(ImageView)findViewById(R.id.image_employee);
 //        memployeeID=(EditText)findViewById(R.id.empid_employee);
