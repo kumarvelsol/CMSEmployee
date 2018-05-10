@@ -39,18 +39,6 @@ public class SignupEmployee extends AppCompatActivity
         memployeeoperatorid=(EditText)findViewById(R.id.signup_employee_operatorid);
         memployeeuserid=(EditText)findViewById(R.id.signup_employee_userid);
 
-        // memployeeoperatorid=(EditText)findViewById(R.id.operator_employee_input);
-//        memployeeNameInput=(EditText)findViewById(R.id.name_employee_input);
-//        empiamge=(ImageView)findViewById(R.id.image_employee);
-//        memployeeID=(EditText)findViewById(R.id.empid_employee);
-//        memployeePhoneInput=(EditText)findViewById(R.id.phonenumber_employee_input);
-//        memployeeAddress=(EditText)findViewById(R.id.adrress_employee_input);
-//        memployeeIDSpinner = (Spinner) findViewById(R.id.spinner_employee);
-//        memployeePassword=(EditText)findViewById(R.id.password_employee_input);
-//        memployeeIDProof=(EditText)findViewById(R.id.idproof_employee_input);
-//        employeeradiogroup=(RadioGroup)findViewById(R.id.employee_radiogroup_select);
-//        memployeesave=(Button)findViewById(R.id.add_employee_button);
-//        memployeeclear=(Button)findViewById(R.id.clear_employee_button);
      submitbtn=(Button)findViewById(R.id.btn);
      submitbtn.setOnClickListener(new View.OnClickListener()
      {
